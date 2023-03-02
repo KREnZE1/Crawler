@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Raum {
 
-    Objekt[][] karte;
+    Objekt[][] karte = new Objekt[5][5];
 
     public Raum() {
         karte = new Objekt[5][5];
