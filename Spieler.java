@@ -1,4 +1,4 @@
-public class Spieler extends Object{
+public class Spieler extends Kreatur{
     static final String REPRESENTATION = "P";
 
     Waffe waffe;
@@ -7,4 +7,5 @@ public class Spieler extends Object{
         super(REPRESENTATION);
     }
 
+    public void setWaffe(Waffe w) {this.waffe = w;}
 }

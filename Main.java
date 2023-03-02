@@ -4,6 +4,10 @@ public class Main {
         Raum raum = new Raum();
         raum.ausgeben();
     }
+
+    public void angriff(Kreatur angreifer, Kreatur verteidiger) {
+        //Berechne Distanz zwischen angreifer und verteidiger und prüfe, ob distanz klein genug ist
+    }
 }
 
 /**

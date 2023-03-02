@@ -4,6 +4,7 @@ public class Skelett extends Monster{
 
     public Skelett() {
         super(REPRESENTATION);
+        this.waffe = BOGEN;
     }
 
 }

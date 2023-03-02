@@ -1,14 +1,13 @@
-public abstract class Item extends Object{
+public abstract class Item extends Objekt {
     static final String REPRESENTATION = "I";
 
     public Item() {
         super(REPRESENTATION);
     }
 
-    // @Override
-    // public String toString() {return REPRESENTATION;}
 }
 
 /**
- * Oberklasse für verschiedene Items, die Spieler (und Monster?) benutzen können.
+ * Oberklasse für verschiedene Items, die Spieler (und Monster?) benutzen
+ * können.
  */
